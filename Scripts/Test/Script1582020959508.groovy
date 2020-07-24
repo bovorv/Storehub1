@@ -4,7 +4,11 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 Mobile.startApplication('D:\\Users\\sunitakac\\Desktop\\apk\\staff_uat_1.2.6m_COD_05032020.apk', true)
 
 Mobile.setText(findTestObject('Staff/Store Id'), '00882', 0)
+
+'test push gitHub2'
 Mobile.setText(findTestObject('Staff/Staff Id'), '1010101', 0)
+
+'test push gitHub2'
 Mobile.tap(findTestObject('Staff/Login Btn'), 0)
 
 //Mobile.tap(findTestObject('Staff/ProcessingTab'), 30)
@@ -12,12 +16,7 @@ Mobile.tap(findTestObject('Staff/Login Btn'), 0)
 //def checkOrder2 = CustomKeywords.'myPac.Success.FindOrder'(order_id)
 //def editProduct = 'ไข่ไก่ต้มสุกตราซีพี'
 //CustomKeywords.'myPac.Success.deleteProduct'(editProduct)
-
-
 def text = ''
-println text.length()
 
-
-
-
+println(text.length())
 
