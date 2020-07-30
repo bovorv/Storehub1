@@ -1,102 +1,307 @@
-[35m[Appium][39m Welcome to Appium v1.16.0
+[35m[Appium][39m Welcome to Appium v1.17.1
 [35m[Appium][39m Non-default server args:
-[35m[Appium][39m   port: 57173
+[35m[Appium][39m   port: 61937
 [35m[Appium][39m   loglevel: info
-[35m[Appium][39m   chromeDriverPort: 57175
-[35m[Appium][39m   tmpDir: D:\Users\sunitakac\AppData\Local\Temp\\Katalon\Appium\Temp1583898663048
-[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:57173
+[35m[Appium][39m   tmpDir: C:\Users\BOVORN~1\AppData\Local\Temp\\Katalon\Appium\Temp1596083564432
+[35m[Appium][39m   chromedriverPort: 61938
+[35m[Appium][39m Deprecated server args:
+[35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities '{"chromedriverPort":61938}'
+[35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
+[35m[Appium][39m   chromedriverPort: 61938
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:61937
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m5 ms - 68[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m10 ms - 68[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
 [35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
-[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"D:\\Users\\sunitakac\\Desktop\\apk\\staff_uat_1.2.6m_COD_05032020.apk","noReset":true,"deviceName":"samsung SM-A505F (Android 9)","fullReset":false,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"9","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"R58M62HTB0R","systemPort":57181},"capabilities":{"firstMatch":[{"appium:app":"D:\\Users\\sunitakac\\Desktop\\apk\\staff_uat_1.2.6m_COD_05032020.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"samsung SM-A505F (Android 9)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"9","appium:systemPort":57181,"appium:udid":"R58M62HTB0R"}]}}[39m
-[35m[BaseDriver][39m The capabilities ["platform"] are not standard capabilities and should have an extension prefix
-[35m[Appium][39m Appium v1.16.0 creating new AndroidUiautomator2Driver (v1.40.0) session
+[35m[HTTP][39m [90m{"desiredCapabilities":{"appActivity":".Settings","appPackage":"com.android.settings","newCommandTimeout":1800,"platformVersion":"6.0","autoGrantPermissions":true,"platformName":"Android","udid":"WUJ01MGRLP","deviceName":"Sony E5333 (Android 6.0)","platform":"ANDROID","systemPort":8218},"capabilities":{"firstMatch":[{"appium:appActivity":".Settings","appium:appPackage":"com.android.settings","appium:autoGrantPermissions":true,"appium:deviceName":"Sony E5333 (Android 6.0)","appium:newCommandTimeout":1800,"platform":"ANDROID","platformName":"android","appium:platformVersion":"6.0","appium:systemPort":8218,"appium:udid":"WUJ01MGRLP"}]}}[39m
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m   DEPRECATION WARNING:
+[35m[Appium][39m 
+[35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+[35m[Appium][39m   capabilities for this Android session
+[35m[Appium][39m 
+[35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+[35m[Appium][39m   UiAutomator2 Driver
+[35m[Appium][39m 
+[35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+[35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+[35m[Appium][39m   platforms
+[35m[Appium][39m 
+[35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+[35m[Appium][39m   'automationName=UiAutomator1'
+[35m[Appium][39m 
+[35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+[35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+[35m[Appium][39m 
+[35m[Appium][39m   For more information about drivers, please visit 
+[35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+[35m[Appium][39m   'Drivers' menu
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m 
+[35m[Appium][39m Appium v1.17.1 creating new AndroidUiautomator2Driver (v1.44.2) session
 [35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
 [35m[BaseDriver][39m   platform
-[35m[BaseDriver][39m Session created with session id: 56a3e43f-01b2-4a3e-aa92-1ab196080eb1
-[35m[BaseDriver][39m Using local app 'D:\Users\sunitakac\Desktop\apk\staff_uat_1.2.6m_COD_05032020.apk'
-[35m[ADB][39m Found 1 'build-tools' folders under 'D:\Users\sunitakac\.katalon\tools\android_sdk' (newest first):
-[35m[ADB][39m     D:/Users/sunitakac/.katalon/tools/android_sdk/build-tools/29.0.3
-[35m[ADB][39m Using 'adb.exe' from 'D:\Users\sunitakac\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[BaseDriver][39m Session created with session id: 36f0518c-4eb8-40dc-b2ec-1f307874a2e3
+[35m[UiAutomator2][39m Starting 'com.android.settings' directly on the device
+[35m[ADB][39m Found 1 'build-tools' folders under 'C:\Users\bovorndet\.katalon\tools\android_sdk' (newest first):
+[35m[ADB][39m     C:/Users/bovorndet/.katalon/tools/android_sdk/build-tools/29.0.3
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\bovorndet\.katalon\tools\android_sdk\platform-tools\adb.exe'
 [35m[AndroidDriver][39m Retrieving device list
-[35m[AndroidDriver][39m Using device: R58M62HTB0R
-[35m[ADB][39m Using 'adb.exe' from 'D:\Users\sunitakac\.katalon\tools\android_sdk\platform-tools\adb.exe'
-[35m[UiAutomator2][39m Relaxing hidden api policy
-[35m[ADB][39m Package name: 'th.co.gosoft.storemobile.sevendelivery.staff'
-[35m[ADB][39m Main activity name: 'th.co.gosoft.storemobile.sevendelivery.staff.splash.SplashScreenActivity'
-[35m[ADB][39m Using 'apksigner.bat' from 'D:\Users\sunitakac\.katalon\tools\android_sdk\build-tools\29.0.3\apksigner.bat'
+[35m[AndroidDriver][39m Using device: WUJ01MGRLP
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\bovorndet\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[AndroidDriver][39m No app sent in, not parsing package/activity
+[35m[AndroidDriver][39m Granting permissions SET_ANIMATION_SCALE,CHANGE_CONFIGURATION,ACCESS_FINE_LOCATION to 'io.appium.settings'
+[35m[ADB][39m Using 'apksigner.jar' from 'C:\Users\bovorndet\.katalon\tools\android_sdk\build-tools\29.0.3\lib\apksigner.jar'
 [35m[UiAutomator2][39m Server packages are not going to be (re)installed
-[35m[ADB][39m The application at 'D:\Users\sunitakac\Desktop\apk\staff_uat_1.2.6m_COD_05032020.apk' is already cached to '/data/local/tmp/appium_cache/b5abdc6a1f636b086ebecef6657963e7ec964882.apk'
-[35m[ADB][39m The installation of 'staff_uat_1.2.6m_COD_05032020.apk' took 3.328s
-[35m[UiAutomator2][39m Starting UIAutomator2 server 4.5.2
-[35m[UiAutomator2][39m Using UIAutomator2 server from 'D:\Users\sunitakac\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.5.2.apk' and test from 'D:\Users\sunitakac\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Starting UIAutomator2 server 4.5.5
+[35m[UiAutomator2][39m Using UIAutomator2 server from 'C:\Users\bovorndet\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.5.5.apk' and test from 'C:\Users\bovorndet\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
 [35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
-[35m[WD Proxy][39m Got an unexpected response with status undefined: {"code":"ECONNRESET"}
-[35m[WD Proxy][39m Got an unexpected response with status undefined: {"code":"ECONNRESET"}
-[35m[WD Proxy][39m Got an unexpected response with status undefined: {"code":"ECONNRESET"}
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
 [35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
 [35m[AndroidDriver][39m Screen already unlocked, doing nothing
-[35m[UiAutomator2][39m Starting 'th.co.gosoft.storemobile.sevendelivery.staff/th.co.gosoft.storemobile.sevendelivery.staff.splash.SplashScreenActivity and waiting for 'th.co.gosoft.storemobile.sevendelivery.staff/th.co.gosoft.storemobile.sevendelivery.staff.splash.SplashScreenActivity'
-[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 56a3e43f-01b2-4a3e-aa92-1ab196080eb1 added to master session list
-[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m19832 ms - 1265[39m
+[35m[UiAutomator2][39m Starting 'com.android.settings/.Settings and waiting for 'com.android.settings/.Settings'
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 36f0518c-4eb8-40dc-b2ec-1f307874a2e3 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m26896 ms - 1077[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/56a3e43f-01b2-4a3e-aa92-1ab196080eb1[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/56a3e43f-01b2-4a3e-aa92-1ab196080eb1 [39m[32m200[39m [90m14 ms - 1197[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3 [39m[32m200[39m [90m12 ms - 1009[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/56a3e43f-01b2-4a3e-aa92-1ab196080eb1[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/56a3e43f-01b2-4a3e-aa92-1ab196080eb1 [39m[32m200[39m [90m11 ms - 1197[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3 [39m[32m200[39m [90m8 ms - 1009[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
 [35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/56a3e43f-01b2-4a3e-aa92-1ab196080eb1/timeouts[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/timeouts[39m
 [35m[HTTP][39m [90m{"implicit":60000}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/56a3e43f-01b2-4a3e-aa92-1ab196080eb1/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/timeouts [39m[32m200[39m [90m4 ms - 14[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/56a3e43f-01b2-4a3e-aa92-1ab196080eb1/source[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[W3C (56a3e43f)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId 8c35111c-241a-488c-8703-954c841b7889 with 56a3e43f-01b2-4a3e-aa92-1ab196080eb1
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/56a3e43f-01b2-4a3e-aa92-1ab196080eb1/source [39m[32m200[39m [90m97 ms - 2901[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/appium/device/activate_app[39m
+[35m[HTTP][39m [90m{"bundleId":"th.co.gosoft.storemobile.storehub.android"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/appium/device/activate_app [39m[32m200[39m [90m1223 ms - 14[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/56a3e43f-01b2-4a3e-aa92-1ab196080eb1/screenshot[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/source[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/56a3e43f-01b2-4a3e-aa92-1ab196080eb1/screenshot [39m[32m200[39m [90m611 ms - 119476[39m
+[35m[W3C (36f0518c)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b2c6d2df-f68c-4690-9244-530d1184a8b4 with 36f0518c-4eb8-40dc-b2ec-1f307874a2e3
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/source [39m[32m200[39m [90m1182 ms - 5632[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/56a3e43f-01b2-4a3e-aa92-1ab196080eb1/source[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/screenshot[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[W3C (56a3e43f)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId 8c35111c-241a-488c-8703-954c841b7889 with 56a3e43f-01b2-4a3e-aa92-1ab196080eb1
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/56a3e43f-01b2-4a3e-aa92-1ab196080eb1/source [39m[32m200[39m [90m1444 ms - 38686[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/screenshot [39m[32m200[39m [90m929 ms - 284458[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/56a3e43f-01b2-4a3e-aa92-1ab196080eb1/screenshot[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/context[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/56a3e43f-01b2-4a3e-aa92-1ab196080eb1/screenshot [39m[32m200[39m [90m715 ms - 299460[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/context [39m[32m200[39m [90m3 ms - 22[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/56a3e43f-01b2-4a3e-aa92-1ab196080eb1/source[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/contexts[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[W3C (56a3e43f)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId 8c35111c-241a-488c-8703-954c841b7889 with 56a3e43f-01b2-4a3e-aa92-1ab196080eb1
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/56a3e43f-01b2-4a3e-aa92-1ab196080eb1/source [39m[32m200[39m [90m351 ms - 5591[39m
+[35m[AndroidDriver][39m Not checking whether webviews have active pages; use the 'ensureWebviewsHavePages' cap to turn this check on
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/contexts [39m[32m200[39m [90m347 ms - 24[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/56a3e43f-01b2-4a3e-aa92-1ab196080eb1/screenshot[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/56a3e43f-01b2-4a3e-aa92-1ab196080eb1/screenshot [39m[32m200[39m [90m759 ms - 264080[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/context [39m[32m200[39m [90m2 ms - 14[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/56a3e43f-01b2-4a3e-aa92-1ab196080eb1[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/orientation[39m
+[35m[HTTP][39m [90m{"orientation":"PORTRAIT"}[39m
+[35m[W3C (36f0518c)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b2c6d2df-f68c-4690-9244-530d1184a8b4 with 36f0518c-4eb8-40dc-b2ec-1f307874a2e3
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/orientation [39m[32m200[39m [90m19 ms - 71[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/context [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/source[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[Appium][39m Removing session 56a3e43f-01b2-4a3e-aa92-1ab196080eb1 from our master session list
-[35m[WD Proxy][39m Got an unexpected response with status undefined: {"code":"ECONNRESET"}
-[35m[UiAutomator2][39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
-[35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
-[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/56a3e43f-01b2-4a3e-aa92-1ab196080eb1 [39m[32m200[39m [90m935 ms - 14[39m
+[35m[W3C (36f0518c)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b2c6d2df-f68c-4690-9244-530d1184a8b4 with 36f0518c-4eb8-40dc-b2ec-1f307874a2e3
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/source [39m[32m200[39m [90m63 ms - 5632[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/screenshot [39m[32m200[39m [90m803 ms - 284836[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/context [39m[32m200[39m [90m2 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[AndroidDriver][39m Not checking whether webviews have active pages; use the 'ensureWebviewsHavePages' cap to turn this check on
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/contexts [39m[32m200[39m [90m275 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/context [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"press","options":{"x":5,"y":100}},{"action":"wait","options":{"ms":500}},{"action":"moveTo","options":{"x":5,"y":100}},{"action":"release","options":{}}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/touch/perform [39m[32m200[39m [90m1211 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/context [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (36f0518c)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b2c6d2df-f68c-4690-9244-530d1184a8b4 with 36f0518c-4eb8-40dc-b2ec-1f307874a2e3
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/source [39m[32m200[39m [90m71 ms - 5632[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/screenshot [39m[32m200[39m [90m988 ms - 285102[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"DL_NO_AREA_ACTION"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/elements [39m[32m200[39m [90m77 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/window/rect [39m[32m200[39m [90m15 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/element[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"DL_NO_AREA_ACTION"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/element [39m[32m200[39m [90m424 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/element/c654bd01-1991-4e3e-b187-69b9cf39cb71/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (36f0518c)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b2c6d2df-f68c-4690-9244-530d1184a8b4 with 36f0518c-4eb8-40dc-b2ec-1f307874a2e3
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/element/c654bd01-1991-4e3e-b187-69b9cf39cb71/location [39m[32m200[39m [90m61 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"c654bd01-1991-4e3e-b187-69b9cf39cb71"}}]}[39m
+[35m[UiAutomator2][39m calling get location: c654bd01-1991-4e3e-b187-69b9cf39cb71
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/touch/perform [39m[32m200[39m [90m158 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (36f0518c)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b2c6d2df-f68c-4690-9244-530d1184a8b4 with 36f0518c-4eb8-40dc-b2ec-1f307874a2e3
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/source [39m[32m200[39m [90m1406 ms - 15829[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/screenshot [39m[32m200[39m [90m670 ms - 114048[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/context [39m[32m200[39m [90m3 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[AndroidDriver][39m Not checking whether webviews have active pages; use the 'ensureWebviewsHavePages' cap to turn this check on
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/contexts [39m[32m200[39m [90m249 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/context [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/appium/device/press_keycode[39m
+[35m[HTTP][39m [90m{"keycode":4}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/appium/device/press_keycode [39m[32m200[39m [90m253 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/context [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (36f0518c)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b2c6d2df-f68c-4690-9244-530d1184a8b4 with 36f0518c-4eb8-40dc-b2ec-1f307874a2e3
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/source [39m[32m200[39m [90m11395 ms - 48901[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/screenshot [39m[32m200[39m [90m1431 ms - 783462[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"th.co.gosoft.storemobile.storehub.android:id/layout_main_section3_iv_item"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/elements [39m[32m200[39m [90m2277 ms - 1035[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"th.co.gosoft.storemobile.storehub.android:id/layout_main_section3_iv_item\").packageName(\"th.co.gosoft.storemobile.storehub.android\").enabled(true).clickable(true).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/elements [39m[32m-[39m [90m- ms - -[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"th.co.gosoft.storemobile.storehub.android:id/layout_main_section3_iv_item\").packageName(\"th.co.gosoft.storemobile.storehub.android\").enabled(true).clickable(true).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/elements [39m[32m200[39m [90m129262 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/window/rect [39m[32m200[39m [90m17 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/element[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"th.co.gosoft.storemobile.storehub.android:id/layout_main_section3_iv_item\").packageName(\"th.co.gosoft.storemobile.storehub.android\").enabled(true).clickable(true).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[WD Proxy][39m Got response with status 404: {"sessionId":"b2c6d2df-f68c-4690-9244-530d1184a8b4","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:78)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:38)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:252)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:242)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:51)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+[35m[WD Proxy][39m Got response with status 404: {"sessionId":"b2c6d2df-f68c-4690-9244-530d1184a8b4","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:78)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:38)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:252)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:242)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:51)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+[35m[WD Proxy][39m Got response with status 404: {"sessionId":"b2c6d2df-f68c-4690-9244-530d1184a8b4","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:78)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:38)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:252)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:242)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:51)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+[35m[WD Proxy][39m Got response with status 404: {"sessionId":"b2c6d2df-f68c-4690-9244-530d1184a8b4","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:78)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:38)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:252)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:242)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:51)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+[35m[WD Proxy][39m Got response with status 404: {"sessionId":"b2c6d2df-f68c-4690-9244-530d1184a8b4","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:78)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:38)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:252)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:242)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:51)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+[35m[WD Proxy][39m Got response with status 404: {"sessionId":"b2c6d2df-f68c-4690-9244-530d1184a8b4","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:78)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:38)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:252)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:242)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:51)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+[35m[WD Proxy][39m Got response with status 404: {"sessionId":"b2c6d2df-f68c-4690-9244-530d1184a8b4","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:78)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:38)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:252)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:242)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:51)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+[35m[WD Proxy][39m Got response with status 404: {"sessionId":"b2c6d2df-f68c-4690-9244-530d1184a8b4","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:78)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:38)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:252)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:242)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:51)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+[35m[WD Proxy][39m Got response with status 404: {"sessionId":"b2c6d2df-f68c-4690-9244-530d1184a8b4","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:78)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:38)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:252)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:242)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:51)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+[35m[WD Proxy][39m Got response with status 404: {"sessionId":"b2c6d2df-f68c-4690-9244-530d1184a8b4","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:78)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:38)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:252)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:242)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:51)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+[35m[WD Proxy][39m Got response with status 404: {"sessionId":"b2c6d2df-f68c-4690-9244-530d1184a8b4","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:78)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:38)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:252)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:242)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:51)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+[35m[WD Proxy][39m Got response with status 404: {"sessionId":"b2c6d2df-f68c-4690-9244-530d1184a8b4","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:78)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:38)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:252)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:242)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:51)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+[35m[WD Proxy][39m Got response with status 404: {"sessionId":"b2c6d2df-f68c-4690-9244-530d1184a8b4","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:78)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:38)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:252)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:242)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:51)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+[35m[WD Proxy][39m Got response with status 404: {"sessionId":"b2c6d2df-f68c-4690-9244-530d1184a8b4","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:78)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:38)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:252)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:242)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:51)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+[35m[WD Proxy][39m Got response with status 404: {"sessionId":"b2c6d2df-f68c-4690-9244-530d1184a8b4","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:78)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:38)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:252)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:242)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:51)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+[35m[WD Proxy][39m Got response with status 404: {"sessionId":"b2c6d2df-f68c-4690-9244-530d1184a8b4","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:78)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:38)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:252)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:242)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:51)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+[35m[WD Proxy][39m Got response with status 404: {"sessionId":"b2c6d2df-f68c-4690-9244-530d1184a8b4","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:78)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:38)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:252)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:242)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:51)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/element [39m[33m404[39m [90m76535 ms - 423[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/context [39m[32m200[39m [90m3 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[AndroidDriver][39m Not checking whether webviews have active pages; use the 'ensureWebviewsHavePages' cap to turn this check on
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/contexts [39m[32m200[39m [90m194 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/context [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/appium/device/press_keycode[39m
+[35m[HTTP][39m [90m{"keycode":4}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/appium/device/press_keycode [39m[32m200[39m [90m10267 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/context [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (36f0518c)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b2c6d2df-f68c-4690-9244-530d1184a8b4 with 36f0518c-4eb8-40dc-b2ec-1f307874a2e3
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/source [39m[32m200[39m [90m11339 ms - 48901[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3/screenshot [39m[32m200[39m [90m1441 ms - 783736[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[Appium][39m Removing session 36f0518c-4eb8-40dc-b2ec-1f307874a2e3 from our master session list
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/36f0518c-4eb8-40dc-b2ec-1f307874a2e3 [39m[32m200[39m [90m2036 ms - 14[39m
 [35m[HTTP][39m [90m[39m
